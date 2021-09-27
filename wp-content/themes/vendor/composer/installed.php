@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '4fe5f325ad937e51edbc8ef7eb1d9fe6d89c3798',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '4fe5f325ad937e51edbc8ef7eb1d9fe6d89c3798',
+            'dev_requirement' => false,
+        ),
+        'brain/hierarchy' => array(
+            'pretty_version' => '2.5.0',
+            'version' => '2.5.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../brain/hierarchy',
+            'aliases' => array(),
+            'reference' => 'd5d46c6a44f84e59384b0d4d61b27cb5b91bc523',
+            'dev_requirement' => false,
+        ),
+        'soberwp/controller' => array(
+            'pretty_version' => '2.1.2',
+            'version' => '2.1.2.0',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../soberwp/controller',
+            'aliases' => array(),
+            'reference' => '4604826307b4e552c5fb69888ac882c3139dde81',
+            'dev_requirement' => false,
+        ),
+    ),
+);
